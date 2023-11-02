@@ -17,7 +17,7 @@ ValueError: Connection error, and we cannot find the requested files in the cach
 
 another question is Pytorch and Cuda and cudnn, my GUP is single RTX3090. i make sure it can be use.
 
-`pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+`pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html`
 
 2023-11-02
 ## Installation
