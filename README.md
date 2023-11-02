@@ -4,6 +4,7 @@ Shengyao Zhuang, Houxing Ren, Linjun Shou, Jian Pei, Ming Gong, Guido Zuccon and
 
 ##2023-11-02
 When i use this code. i have some question, a most important is i cannt use Hugging Face dataset and models online.i try to down dataset to disk (https://blog.51cto.com/u_15719772/6104170), also successed process by process_marco.py. But when i Run run.py, faled to 
+
 `Traceback (most recent call last):
   File "/-----/DSI-transform/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 1724, in from_pretrained
     resolved_vocab_files[file_id] = cached_path(
@@ -15,10 +16,9 @@ ValueError: Connection error, and we cannot find the requested files in the cach
 `
 
 another question is Pytorch and Cuda and cudnn, my GUP is single RTX3090. i make sure it can be use.
-`
-pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 
-`
+`pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
 2023-11-02
 ## Installation
 
