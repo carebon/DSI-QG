@@ -1,7 +1,10 @@
 
 #2023-11-07 ben
+
 This work is expand of DSI-Transform https://github.com/ArvinZhuang/DSI-transformers/tree/main, but not offical, but helpful.
+
 when i try to test this code, i find some tips.
+
 1.Hugging Face https://huggingface.co/datasets/natural_questions is not usually work,especially when u need to use a proxy serve. if so, u need to try donwloading dataset and model to disk and cite it when used.https://github.com/ArvinZhuang/DSI-QG/issues/11
 
 
